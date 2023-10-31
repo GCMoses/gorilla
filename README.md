@@ -21,15 +21,22 @@ numpy
 Install the required dependencies by running the following command:
 
 pip install -r requirements.txt
+
 Save the provided code in a file called app.py in the project directory.
-Make sure you have the transparent gorilla image (gorilla.png) in the same directory as app.py.
-Open the app.py file and replace the openai.api_key line with your actual OpenAI API key. If you don't have an API key, you can sign up for one on the OpenAI website.
+
 Save the app.py file.
+
 In your command prompt or terminal, run the following command to start the Streamlit app:
+
 streamlit run app.py
+
 The Streamlit app will start running, and you can access it in your web browser at http://localhost:8501.
+
 You can enter your prompt in the text area provided and select a model option from the dropdown list.
+
 Click the "King Kong Huntin" button to generate a response based on your prompt using Gorilla LLM.
+
 The generated response will be displayed in the app. If the response includes generated code, it will be shown in a separate section.
-To run the generated code, click the "King Kong Huntin" button again. The generated code will be executed, and the output will be displayed in the app.
+
+To run the generated code, copy the code and paste it into a .py file  The generated code will be executed, when you run streamlit run newwly-generated.py to see the results of Goorilla LLM
 </div>
