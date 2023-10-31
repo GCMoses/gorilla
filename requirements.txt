@@ -1,0 +1,6 @@
+openai
+transformers
+diffusers
+torch
+pandas
+numpy
